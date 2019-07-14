@@ -323,12 +323,9 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WYCategoryKit_Example/Pods-WYCategoryKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/WYCategoryKit/WYCategoryKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WYCategoryKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

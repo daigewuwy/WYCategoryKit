@@ -2,6 +2,10 @@ use_frameworks!
 
 platform :ios, '8.0'
 
+install! 'cocoapods',
+deterministic_uuids: false,
+disable_input_output_paths: true
+
 target 'WYCategoryKit_Example' do
   pod 'WYCategoryKit', :path => '../'
 

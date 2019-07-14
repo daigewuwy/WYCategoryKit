@@ -1,0 +1,6 @@
+framework module WYCategoryKit {
+  umbrella header "WYCategoryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -32,11 +32,55 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'WYCategoryKit/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'WYCategoryKit' => ['WYCategoryKit/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.subspec 'NSObject' do |ss|
+    ss.source_files = 'WYCategoryKit/Classes/Category/NSObject/*'
+  end
+  
+  s.subspec 'NSArray' do |ss|
+    ss.source_files = 'WYCategoryKit/Classes/Category/NSArray/*'
+    ss.dependency 'WYCategoryKit/NSObject'
+  end
+  
+  s.subspec 'NSDate' do |ss|
+    ss.source_files = 'WYCategoryKit/Classes/Category/NSDate/*'
+  end
+  
+  s.subspec 'NSString' do |ss|
+    ss.source_files = 'WYCategoryKit/Classes/Category/NSString/*'
+  end
+  
+  s.subspec 'UIButton' do |ss|
+    ss.source_files = 'WYCategoryKit/Classes/Category/UIButton/*'
+    ss.dependency 'WYCategoryKit/NSString'
+  end
+  
+  s.subspec 'UIColor' do |ss|
+    ss.source_files = 'WYCategoryKit/Classes/Category/UIColor/*'
+  end
+  
+  s.subspec 'UIImage' do |ss|
+    ss.source_files = 'WYCategoryKit/Classes/Category/UIImage/*'
+  end
+  
+  s.subspec 'UIImageView' do |ss|
+    ss.source_files = 'WYCategoryKit/Classes/Category/UIImageView/*'
+  end
+  
+  s.subspec 'UITabbar' do |ss|
+    ss.source_files = 'WYCategoryKit/Classes/Category/UITabbar/*'
+  end
+  
+  s.subspec 'UIView' do |ss|
+    ss.source_files = 'WYCategoryKit/Classes/Category/UIView/*'
+  end
+  
+  s.subspec 'UIViewController' do |ss|
+    ss.source_files = 'WYCategoryKit/Classes/Category/UIViewController/*'
+  end
+  
+  s.subspec 'Marco' do |ss|
+    ss.source_files = 'WYCategoryKit/Classes/Marco/*'
+  end
+  
 end
