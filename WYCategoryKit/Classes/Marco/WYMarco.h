@@ -6,8 +6,12 @@
 //  Copyright (c) 2019年 wwy. All rights reserved.
 //
 
+#ifndef projectBase_SizeHeader_h
+#define projectBase_SizeHeader_h
+
+
 #define kIs_iphone (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
-#define kIs_iPhoneX kScreenWidth>=375.0f && kScreenHeight>=812.0f && kIs_iphone
+#define kIs_iPhoneX kScreenWidth >=375.0f && kScreenHeight >=812.0f&& kIs_iphone
 
 /*状态栏高度*/
 #define kStatusBarHeight (CGFloat)(kIs_iPhoneX?(44.0):(20.0))
@@ -70,8 +74,6 @@
 /* 自定义输出 */
 #define FILENAME strrchr(__FILE__,'/')?strrchr(__FILE__,'/')+1:__FILE__
 #define WYLog(fmt, ...) NSLog(@"\n%s \n%s %d行\n"fmt"\n",FILENAME,__func__,__LINE__,##__VA_ARGS__)
-#else
-#define WYLog(...)
 #endif
 
 #endif

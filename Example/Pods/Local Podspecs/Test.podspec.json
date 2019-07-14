@@ -22,7 +22,7 @@
   "subspecs": [
     {
       "name": "Category",
-      "source_files": "WYCategoryKit/Classes/Category/*"
+      "source_files": "WYCategoryKit/Classes/Category/**/*"
     },
     {
       "name": "Marco",

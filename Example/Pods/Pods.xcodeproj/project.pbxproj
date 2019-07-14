@@ -71,7 +71,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		46EB2E000000C0 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46EB2E000000C0 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		46EB2E000000F0 /* NSArray+SafeIndex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+SafeIndex.h"; sourceTree = "<group>"; };
 		46EB2E00000100 /* NSArray+SafeIndex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SafeIndex.m"; sourceTree = "<group>"; };
 		46EB2E00000110 /* NSObject+Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+Utils.h"; sourceTree = "<group>"; };
@@ -107,10 +107,10 @@
 		46EB2E00000390 /* UIViewController+WBLefeCircleEventManagement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WBLefeCircleEventManagement.h"; sourceTree = "<group>"; };
 		46EB2E000003A0 /* UIViewController+WBLefeCircleEventManagement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WBLefeCircleEventManagement.m"; sourceTree = "<group>"; };
 		46EB2E000003C0 /* WYMarco.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WYMarco.h; sourceTree = "<group>"; };
-		46EB2E000003E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		46EB2E000003F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		46EB2E00000400 /* WYCategoryKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WYCategoryKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		46EB2E00000450 /* WYCategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WYCategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EB2E000003E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		46EB2E000003F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		46EB2E00000400 /* WYCategoryKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WYCategoryKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46EB2E00000450 /* WYCategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WYCategoryKit.framework; path = WYCategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46EB2E000004B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		46EB2E00000710 /* WYCategoryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYCategoryKit.xcconfig; sourceTree = "<group>"; };
 		46EB2E00000720 /* WYCategoryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WYCategoryKit.modulemap; sourceTree = "<group>"; };
@@ -118,7 +118,7 @@
 		46EB2E00000750 /* WYCategoryKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WYCategoryKit-Info.plist"; sourceTree = "<group>"; };
 		46EB2E00000760 /* WYCategoryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYCategoryKit-prefix.pch"; sourceTree = "<group>"; };
 		46EB2E00000770 /* WYCategoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WYCategoryKit-dummy.m"; sourceTree = "<group>"; };
-		46EB2E000007D0 /* Pods_WYCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYCategoryKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EB2E000007D0 /* Pods_WYCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WYCategoryKit_Example.framework; path = "Pods-WYCategoryKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46EB2E00000840 /* Pods-WYCategoryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYCategoryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		46EB2E00000850 /* Pods-WYCategoryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYCategoryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		46EB2E00000860 /* Pods-WYCategoryKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYCategoryKit_Example-Info.plist"; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 		46EB2E000008B0 /* Pods-WYCategoryKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYCategoryKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		46EB2E000008C0 /* Pods-WYCategoryKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYCategoryKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		46EB2E000008D0 /* Pods-WYCategoryKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WYCategoryKit_Example-dummy.m"; sourceTree = "<group>"; };
-		46EB2E00000930 /* Pods_WYCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYCategoryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EB2E00000930 /* Pods_WYCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WYCategoryKit_Tests.framework; path = "Pods-WYCategoryKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46EB2E000009A0 /* Pods-WYCategoryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYCategoryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		46EB2E000009B0 /* Pods-WYCategoryKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYCategoryKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		46EB2E000009C0 /* Pods-WYCategoryKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYCategoryKit_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -252,6 +252,7 @@
 				46EB2E00000110 /* NSObject+Utils.h */,
 				46EB2E00000120 /* NSObject+Utils.m */,
 			);
+			name = NSArray;
 			path = NSArray;
 			sourceTree = "<group>";
 		};
@@ -263,6 +264,7 @@
 				46EB2E00000160 /* NSDateFormatter+Utils.h */,
 				46EB2E00000170 /* NSDateFormatter+Utils.m */,
 			);
+			name = NSDate;
 			path = NSDate;
 			sourceTree = "<group>";
 		};
@@ -272,6 +274,7 @@
 				46EB2E00000190 /* NSObject+Alert.h */,
 				46EB2E000001A0 /* NSObject+Alert.m */,
 			);
+			name = NSObject;
 			path = NSObject;
 			sourceTree = "<group>";
 		};
@@ -281,6 +284,7 @@
 				46EB2E000001C0 /* NSString+Utils.h */,
 				46EB2E000001D0 /* NSString+Utils.m */,
 			);
+			name = NSString;
 			path = NSString;
 			sourceTree = "<group>";
 		};
@@ -290,6 +294,7 @@
 				46EB2E000001F0 /* UIButton+Utils.h */,
 				46EB2E00000200 /* UIButton+Utils.m */,
 			);
+			name = UIButton;
 			path = UIButton;
 			sourceTree = "<group>";
 		};
@@ -299,6 +304,7 @@
 				46EB2E00000220 /* UIColor+Utils.h */,
 				46EB2E00000230 /* UIColor+Utils.m */,
 			);
+			name = UIColor;
 			path = UIColor;
 			sourceTree = "<group>";
 		};
@@ -312,6 +318,7 @@
 				46EB2E00000290 /* UIImage+Utils.h */,
 				46EB2E000002A0 /* UIImage+Utils.m */,
 			);
+			name = UIImage;
 			path = UIImage;
 			sourceTree = "<group>";
 		};
@@ -321,6 +328,7 @@
 				46EB2E000002C0 /* UIImageView+Utils.h */,
 				46EB2E000002D0 /* UIImageView+Utils.m */,
 			);
+			name = UIImageView;
 			path = UIImageView;
 			sourceTree = "<group>";
 		};
@@ -330,6 +338,7 @@
 				46EB2E000002F0 /* UITabBar+Tip.h */,
 				46EB2E00000300 /* UITabBar+Tip.m */,
 			);
+			name = UITabbar;
 			path = UITabbar;
 			sourceTree = "<group>";
 		};
@@ -339,6 +348,7 @@
 				46EB2E00000320 /* UIView+Utils.h */,
 				46EB2E00000330 /* UIView+Utils.m */,
 			);
+			name = UIView;
 			path = UIView;
 			sourceTree = "<group>";
 		};
@@ -352,6 +362,7 @@
 				46EB2E00000390 /* UIViewController+WBLefeCircleEventManagement.h */,
 				46EB2E000003A0 /* UIViewController+WBLefeCircleEventManagement.m */,
 			);
+			name = UIViewController;
 			path = UIViewController;
 			sourceTree = "<group>";
 		};

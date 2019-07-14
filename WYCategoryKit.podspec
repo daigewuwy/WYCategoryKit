@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'WYCategoryKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of WYCategoryKit.'
+  s.summary          = 'A file include category of system classes an macro.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -32,51 +32,15 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'WYCategoryKit/Classes/**/*'
   
+  #Hierarchy:
+  #
+  #                |---Category
+  # Development----
+  #                |---Marco
+  #
   
-  s.subspec 'NSObject' do |ss|
-    ss.source_files = 'WYCategoryKit/Classes/Category/NSObject/*'
-  end
-  
-  s.subspec 'NSArray' do |ss|
-    ss.source_files = 'WYCategoryKit/Classes/Category/NSArray/*'
-    ss.dependency 'WYCategoryKit/NSObject'
-  end
-  
-  s.subspec 'NSDate' do |ss|
-    ss.source_files = 'WYCategoryKit/Classes/Category/NSDate/*'
-  end
-  
-  s.subspec 'NSString' do |ss|
-    ss.source_files = 'WYCategoryKit/Classes/Category/NSString/*'
-  end
-  
-  s.subspec 'UIButton' do |ss|
-    ss.source_files = 'WYCategoryKit/Classes/Category/UIButton/*'
-    ss.dependency 'WYCategoryKit/NSString'
-  end
-  
-  s.subspec 'UIColor' do |ss|
-    ss.source_files = 'WYCategoryKit/Classes/Category/UIColor/*'
-  end
-  
-  s.subspec 'UIImage' do |ss|
-    ss.source_files = 'WYCategoryKit/Classes/Category/UIImage/*'
-  end
-  
-  s.subspec 'UIImageView' do |ss|
-    ss.source_files = 'WYCategoryKit/Classes/Category/UIImageView/*'
-  end
-  
-  s.subspec 'UITabbar' do |ss|
-    ss.source_files = 'WYCategoryKit/Classes/Category/UITabbar/*'
-  end
-  
-  s.subspec 'UIView' do |ss|
-    ss.source_files = 'WYCategoryKit/Classes/Category/UIView/*'
-  end
-  
-  s.subspec 'UIViewController' do |ss|
-    ss.source_files = 'WYCategoryKit/Classes/Category/UIViewController/*'
+  s.subspec 'Category' do |ss|
+    ss.source_files = 'WYCategoryKit/Classes/Category/**/*'
   end
   
   s.subspec 'Marco' do |ss|

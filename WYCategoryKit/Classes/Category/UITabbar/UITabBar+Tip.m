@@ -23,8 +23,7 @@
     TipView.layer.cornerRadius = 13.0;//圆形
     TipView.backgroundColor = [UIColor redColor];//颜色：红色
     CGRect tabFrame = self.frame;
-    
-#warning prepare to modify
+
     //确定小红点的位置
     CGFloat percentX = (index + 0.6) / 5.0; // 5个tabbar
     CGFloat x = ceilf(percentX * tabFrame.size.width);

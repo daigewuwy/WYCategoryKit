@@ -1,5 +1,9 @@
 PODS:
-  - WYCategoryKit (0.1.0)
+  - WYCategoryKit (0.1.0):
+    - WYCategoryKit/Category (= 0.1.0)
+    - WYCategoryKit/Marco (= 0.1.0)
+  - WYCategoryKit/Category (0.1.0)
+  - WYCategoryKit/Marco (0.1.0)
 
 DEPENDENCIES:
   - WYCategoryKit (from `../`)
@@ -9,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WYCategoryKit: aa7782a8fc27ac9535efd2b3d066d27dfdff4a7b
+  WYCategoryKit: bfb4538ef0e19c39f3f70ecd08b4a1865da83db5
 
 PODFILE CHECKSUM: d6cd70e38214fc2e616c370bba43503e072689f1
 

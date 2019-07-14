@@ -28,6 +28,7 @@
 #import "UIViewController+DismissKeyboard.h"
 #import "UIViewController+WBLefeCircleEventManagement.h"
 #import "WYMarco.h"
+#import "WYMarco.h"
 
 FOUNDATION_EXPORT double WYCategoryKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char WYCategoryKitVersionString[];
